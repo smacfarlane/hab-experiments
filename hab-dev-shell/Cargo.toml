@@ -1,0 +1,14 @@
+[package]
+name = "hab-dev-shell"
+version = "0.1.0"
+authors = ["Scott Macfarlane <smacfarlane@chef.io>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+clap = { git = "https://github.com/clap-rs/clap", branch = "master"}
+habitat_core = { git = "https://github.com/smacfarlane/habitat", branch = "sm/pkg-install-metadata-additions" }
+habitat_common = { git = "https://github.com/smacfarlane/habitat", branch = "sm/pkg-install-metadata-additions" }
+itertools = "*"
+
