@@ -1,5 +1,8 @@
 [workspace]
 
 members = [
-  "hab-dev-shell"
+  "hab-dev-shell",
+  "hab-tdep-resolve",
+  "hab-plan-static",
+  "check-links"
 ]

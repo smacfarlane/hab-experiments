@@ -1,0 +1,15 @@
+[package]
+name = "hab-tdep-resolve"
+version = "0.1.0"
+authors = ["Scott Macfarlane <smacfarlane@chef.io>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+clap = { git = "https://github.com/clap-rs/clap", branch = "master"}
+habitat_core = { path = "/home/smacfarlane/src/habitat-sh/habitat/components/core" }
+habitat_common = { path = "/home/smacfarlane/src/habitat-sh/habitat/components/common" }
+habitat_api_client = { path = "/home/smacfarlane/src/habitat-sh/habitat/components/builder-api-client" }
+lazy_static = "*"
+
